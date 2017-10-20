@@ -1,11 +1,12 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "25.0.2"
+    buildToolsVersion '26.0.2'
 
     defaultConfig {
-        applicationId "com.androidsrc.server"
+        applicationId "com.manoelmotoso.server"
         minSdkVersion 19
         targetSdkVersion 19
     }
@@ -17,3 +18,14 @@ android {
         }
     }
 }
+dependencies {
+    implementation 'com.android.support:support-v4:24.+'
+    implementation 'com.android.support:appcompat-v7:24.2.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'kotlin-android-extensions'
