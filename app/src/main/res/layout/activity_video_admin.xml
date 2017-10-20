@@ -1,32 +1,30 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0099cc"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#fff"
     tools:context="com.manoelmotoso.views.VideoAdminActivity">
 
-    <!-- The primary full-screen view. This can be replaced with whatever view
-         is needed to present your content, e.g. VideoView, SurfaceView,
-         TextureView, etc. -->
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvIpAddress"/>
+        android:id="@+id/tvIpAddress"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
+        android:hint="______________________________________________________"
+        android:paddingTop="@dimen/activity_vertical_margin"/>
+
     <VideoView
         android:id="@+id/fullscreen_video"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:gravity="center"
-        android:keepScreenOn="true" />
-
-    <!-- This FrameLayout insets its children based on system windows using
-         android:fitsSystemWindows. -->
-    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fitsSystemWindows="true">
+        android:layout_height="240dp"
+        android:layout_alignStart="@+id/tvIpAddress"
+        android:layout_below="@+id/tvIpAddress"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:paddingTop="@dimen/activity_vertical_margin" />
 
-
-    </FrameLayout>
-
-</FrameLayout>
+</RelativeLayout>

@@ -3,41 +3,33 @@ package com.manoelmotoso.views
 import android.app.Activity
 import android.net.Uri
 import android.os.Bundle
-import android.widget.MediaController
-import android.widget.TextView
-import android.widget.VideoView
 import com.manoelmotoso.services.R
 import com.manoelmotoso.services.Server
-
+import kotlinx.android.synthetic.main.activity_video_admin.*
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
  * status bar and navigation/system bar) with user interaction.
  */
 class VideoAdminActivity : Activity() {
+    var videosPath: Array<String>? = null
 
-    private lateinit var mediaController: MediaController
-
-    lateinit var videoView: VideoView
-    lateinit var tvIpAddress: TextView
+    var currentIndex: Int = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_video_admin)
-
-        tvIpAddress = findViewById(R.id.tvIpAddress) as TextView
-        videoView = findViewById(R.id.fullscreen_video) as VideoView
-
-        val uri = Uri.parse("android.resource://$packageName/raw/movie1")
-
-        mediaController = MediaController(this)
-        videoView.setMediaController(mediaController)
-
-        videoView.setVideoURI(uri)
+        videosPath = arrayOf("android.resource://$packageName/raw/movie1", "android.resource://$packageName/raw/movie2")
         Server(this)
     }
 
 
-
+    fun playVideoByIndex(index: Int) {
+        fullscreen_video.seekTo(0)
+        currentIndex = index
+        val uri = Uri.parse(videosPath!![currentIndex])
+        fullscreen_video.setVideoURI(uri)
+        fullscreen_video.start()
+    }
 
 }

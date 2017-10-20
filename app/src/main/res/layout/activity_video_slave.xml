@@ -6,9 +6,49 @@
     android:layout_height="fill_parent"
     tools:context="com.manoelmotoso.views.VideoSlaveActivity">
 
-<VideoView
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:id="@+id/videoSlave"/>
+    <EditText
+        android:id="@+id/edIpServer"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSetUrl"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:hint="192.168.0.1" />
+
+    <EditText
+        android:id="@+id/edPortServer"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnSetUrl"
+        android:layout_alignStart="@+id/edIpServer"
+        android:hint="8080" />
+
+    <Button
+        android:id="@+id/btnSetUrl"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/videoSlave"
+        android:layout_marginBottom="11dp"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/edPortServer"
+        android:text="OK" />
+
+    <VideoView
+        android:id="@+id/videoSlave"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_above="@+id/tvResponse"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="45dp" />
+
+    <TextView
+        android:id="@+id/tvResponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="103dp"
+        android:hint="response from server"
+        android:textAlignment="center"/>
 
 </RelativeLayout>

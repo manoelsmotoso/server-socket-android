@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/manoel/PROJETOS/ANDROID/SocketServer/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "outputFile": "/home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "/home/manoel/PROJETOS/ANDROID/SocketServer/app/src/main/res/values-v11/styles.xml",
-                    "from": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "177",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "309"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "187"
-                    }
-                },
-                {
-                    "source": "/home/manoel/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/8ef81d9520b5e7a350d8f8548b0ad4c8/res/values-v11/values-v11.xml",
+                    "source": "/home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3453f5b4ec221fae1a2115fbbb5e50df/res/values-v11/values-v11.xml",
                     "from": {
                         "startLines": "2,8,14,20,26,32,38,39,40,41,46,51,56,58,60,61,62,115,169",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -39,6 +20,25 @@
                         "endLines": "10,16,22,28,34,40,41,42,43,48,53,58,60,62,63,64,117,171,172",
                         "endColumns": "12,12,12,12,12,12,88,100,102,12,12,12,12,12,70,82,12,12,90",
                         "endOffsets": "606,1031,1459,1885,2312,2737,2826,2927,3030,3438,3858,4280,4387,4516,4587,4670,8601,12675,12766"
+                    }
+                },
+                {
+                    "source": "/home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "177",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "309"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
                     }
                 }
             ]

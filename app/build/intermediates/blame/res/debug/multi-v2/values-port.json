@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/manoel/PROJETOS/ANDROID/SocketServer/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "outputFile": "/home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/home/manoel/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/8ef81d9520b5e7a350d8f8548b0ad4c8/res/values-port/values-port.xml",
+                    "source": "/home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3453f5b4ec221fae1a2115fbbb5e50df/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
