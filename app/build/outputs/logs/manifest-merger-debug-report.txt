@@ -1,12 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:2:1-39:12
+ADDED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:2:1-40:12
 MERGED from [com.android.support:appcompat-v7:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3453f5b4ec221fae1a2115fbbb5e50df/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-v4:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.1.aar/383c47d6dea3afa15e3013f55bbeb848/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6e31134e5b50b78a7178d2ae17cb1771/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/f9e4cebb5efd11b8240de5aab8cd17cc/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.1.aar/452fbf2599710d8aafc66f01312f0b0f/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-media-compat:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.1.aar/8eee571ec3e488f35ab2dbaf14889835/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:support-core-utils:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.1.aar/663e9a615b19fb5aa60db933905e4e2c/AndroidManifest.xml:17:1-27:12
@@ -14,9 +14,9 @@ MERGED from [com.android.support:support-core-ui:24.2.1] /home/manoel_motoso/.gr
 MERGED from [com.android.support:animated-vector-drawable:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.2.1.aar/046aaab8587537631237bd733782e8a8/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:support-vector-drawable:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.2.1.aar/8f6f1ac280cf5053e3d97df6c22641ca/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:support-compat:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.1.aar/d4b7c18986766ff4a5e0b79076e4377c/AndroidManifest.xml:17:1-27:12
-INJECTED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:3:5-40
 		INJECTED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml
@@ -39,8 +39,8 @@ MERGED from [com.android.support:appcompat-v7:24.2.1] /home/manoel_motoso/.gradl
 MERGED from [com.android.support:appcompat-v7:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3453f5b4ec221fae1a2115fbbb5e50df/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.1.aar/383c47d6dea3afa15e3013f55bbeb848/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.1.aar/383c47d6dea3afa15e3013f55bbeb848/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6e31134e5b50b78a7178d2ae17cb1771/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6e31134e5b50b78a7178d2ae17cb1771/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/f9e4cebb5efd11b8240de5aab8cd17cc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/f9e4cebb5efd11b8240de5aab8cd17cc/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:support-fragment:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.1.aar/452fbf2599710d8aafc66f01312f0b0f/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-fragment:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.1.aar/452fbf2599710d8aafc66f01312f0b0f/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.1.aar/8eee571ec3e488f35ab2dbaf14889835/AndroidManifest.xml:21:5-23:63
@@ -84,13 +84,13 @@ ADDED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/ma
 	android:name
 		ADDED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:15:22-77
 application
-ADDED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:17:5-37:19
+ADDED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:17:5-38:19
 MERGED from [com.android.support:appcompat-v7:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3453f5b4ec221fae1a2115fbbb5e50df/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3453f5b4ec221fae1a2115fbbb5e50df/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.1.aar/383c47d6dea3afa15e3013f55bbeb848/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.1.aar/383c47d6dea3afa15e3013f55bbeb848/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6e31134e5b50b78a7178d2ae17cb1771/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6e31134e5b50b78a7178d2ae17cb1771/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/f9e4cebb5efd11b8240de5aab8cd17cc/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/f9e4cebb5efd11b8240de5aab8cd17cc/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-fragment:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.1.aar/452fbf2599710d8aafc66f01312f0b0f/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.1.aar/452fbf2599710d8aafc66f01312f0b0f/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-media-compat:24.2.1] /home/manoel_motoso/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.1.aar/8eee571ec3e488f35ab2dbaf14889835/AndroidManifest.xml:25:5-20
@@ -130,12 +130,16 @@ ADDED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/ma
 	android:name
 		ADDED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:27:27-74
 activity#com.manoelmotoso.views.VideoAdminActivity
-ADDED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:30:9-33:20
+ADDED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:30:9-32:63
 	android:theme
 		ADDED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:32:13-51
 	android:name
 		ADDED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:31:13-69
 activity#com.manoelmotoso.views.VideoSlaveActivity
-ADDED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:35:9-36:20
+ADDED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:34:9-36:20
 	android:name
-		ADDED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:35:19-75
+		ADDED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:34:19-75
+activity#com.manoelmotoso.views.ClientActivity
+ADDED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:37:9-83
+	android:name
+		ADDED from /home/manoel_motoso/PROJETOS/ANDROID/server-socket-android/app/src/main/AndroidManifest.xml:37:19-71

@@ -15,6 +15,7 @@ class VideoAdminActivity : Activity() {
     var videosPath: Array<String>? = null
 
     var currentIndex: Int = 0
+    var mMoment:Int=0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,10 +26,10 @@ class VideoAdminActivity : Activity() {
 
 
     fun playVideoByIndex(index: Int) {
-        fullscreen_video.seekTo(0)
         currentIndex = index
         val uri = Uri.parse(videosPath!![currentIndex])
         fullscreen_video.setVideoURI(uri)
+        fullscreen_video.seekTo(0)
         fullscreen_video.start()
     }
 

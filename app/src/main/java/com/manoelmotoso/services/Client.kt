@@ -1,12 +1,9 @@
 package com.manoelmotoso.services
 
-import android.util.Log
 import android.widget.Toast
-import com.manoelmotoso.helpers.ReaderSocket
 import com.manoelmotoso.views.VideoSlaveActivity
 import kotlinx.android.synthetic.main.activity_video_slave.*
 import java.io.BufferedReader
-import java.io.IOException
 import java.io.InputStreamReader
 import java.net.Socket
 import java.net.UnknownHostException
@@ -35,11 +32,11 @@ internal class Client(internal val activity: VideoSlaveActivity, private val url
             val echoSocket = Socket(url, port)
             val buffer = BufferedReader(InputStreamReader(echoSocket.getInputStream()))
             alertMsg("After buffer")
-            val readText = buffer.readText()
+            var readText = buffer.readText()
             alertMsg("After readText")
 
             activity.runOnUiThread {
-                activity.mTvResponse!!.text = "" + readText
+                activity.tvResponse!!.text = "" + readText
             }
 
 

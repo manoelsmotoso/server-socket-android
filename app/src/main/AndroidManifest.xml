@@ -29,11 +29,12 @@
         </activity>
         <activity
             android:name="com.manoelmotoso.views.VideoAdminActivity"
-            android:theme="@style/FullscreenTheme">
-        </activity>
+            android:theme="@style/FullscreenTheme"></activity>
 
         <activity android:name="com.manoelmotoso.views.VideoSlaveActivity">
+
         </activity>
+        <activity android:name="com.manoelmotoso.views.ClientActivity"></activity>
     </application>
 
 </manifest>
