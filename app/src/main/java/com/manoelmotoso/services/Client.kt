@@ -1,14 +1,13 @@
 package com.manoelmotoso.services
 
+import android.util.Log
 import android.widget.Toast
-import com.manoelmotoso.helpers.Basic.setInterval
+import com.manoelmotoso.helpers.ReaderSocket
 import com.manoelmotoso.views.VideoSlaveActivity
-import kotlinx.android.synthetic.main.activity_video_admin.*
 import kotlinx.android.synthetic.main.activity_video_slave.*
-import org.json.JSONObject
+import java.io.BufferedReader
+import java.io.IOException
 import java.io.InputStreamReader
-import java.io.OutputStream
-import java.io.PrintStream
 import java.net.Socket
 import java.net.UnknownHostException
 
@@ -31,26 +30,16 @@ internal class Client(internal val activity: VideoSlaveActivity, private val url
     inner class SocketClientThread : Thread() {
 
 
-        override fun run() = try {
+         override fun run() = try {
 
-            socket = Socket(url, port)
-
-            val jsonObject = JSONObject()
-
-            var outputStream: OutputStream = socket.getOutputStream()
-            var printStream = PrintStream(outputStream)
-
+            val echoSocket = Socket(url, port)
+            val buffer = BufferedReader(InputStreamReader(echoSocket.getInputStream()))
+            alertMsg("After buffer")
+            val readText = buffer.readText()
+            alertMsg("After readText")
 
             activity.runOnUiThread {
-                activity.playVideoByIndex(0)
-                // set interval
-                setInterval({
-                    if (socket.isConnected) {
-                        jsonObject.put("moment", activity.videoSlave.currentPosition)
-                        jsonObject.put("index", activity.currentIndex)
-                        printStream.print(jsonObject)
-                    }
-                }, 2000)
+                activity.mTvResponse!!.text = "" + readText
             }
 
 
@@ -60,7 +49,32 @@ internal class Client(internal val activity: VideoSlaveActivity, private val url
             response = "UnknownHostException: " + e.toString()
         }
 
+
     }
+
+    fun alertMsg(msg: String) {
+        activity.runOnUiThread {
+            Toast.makeText(activity.applicationContext, msg, Toast.LENGTH_SHORT).show()
+        }
+    }
+
 
 }
 
+
+/*
+*
+socket = Socket(url, port)
+val jsonObject = JSONObject()
+var outputStream: OutputStream = socket.getOutputStream()
+var printStream = PrintStream(outputStream)
+
+// set interval
+setInterval({
+    if (socket.isConnected) {
+        jsonObject.put("moment", activity.videoSlave.currentPosition)
+        jsonObject.put("index", activity.currentIndex)
+        printStream.print(jsonObject)
+    }
+}, 2000)
+*/
